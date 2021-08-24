@@ -1,0 +1,49 @@
+img {
+	width: 120px;
+	height: 120px;
+	padding: 20px 20px 20px 20px;
+}
+
+body {
+	background-color: rgb(200, 180, 200);
+	font-family: sans-serif;
+	text-align: center;
+	line-height: 2;
+}
+
+#cabecalho {
+	border: purple 4px solid;
+	border-radius: 10px;
+	padding-left: 50px;
+	margin-bottom: 30px;
+	box-shadow: purple 2px 2px 5px;
+}
+
+#conteudo {
+	background-color: white;
+	margin-left: 5%;
+	margin-right: 5%;
+	padding: 2%;
+}
+
+a {
+	font-family: lucida sans;
+	color: blue;
+	text-decoration: unset;
+	word-wrap: normal;
+}
+
+.flex-container {
+	display: flex;
+	flex-flow: row wrap;
+	align-self: flex-end;
+	justify-content: space-between;
+	margin-bottom: 30px;
+}
+
+.item {
+	width: 200px;
+	height: 300px;
+	margin: 0px 10px 0px 10px;
+	text-align: center;
+}
