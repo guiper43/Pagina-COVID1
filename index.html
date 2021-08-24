@@ -1,72 +1,106 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
 
-
-
 <head>
-<meta charset="UTF-8" lang="pt-br"/> 
-<title> PÁGINA COVID-19</title>
+    <meta charset="UTF-8" lang="pt-br"/> 
+    <title> .: Tudo não está perdido! :. </title>
+    <link rel="stylesheet" href="estilo_index.css">
 </head>
 
-
-
 <body>
-<h1> PÁGINA COVID-19</h1>
 
+    <h1 class="principal"> TUDO NÃO ESTÁ PERDIDO! </h1>
     
-<div>
-<h2> Melhores notícias durante a pandemia</h2> 
- <p>Apesar do momento difícil que estamos passando, resolvemos trazer algumas notícias positivas!</p>
-</div>
+    <hr id="linha1" color="white" size="3">
 
-<div> 
-    <ol>
-        <li> Coronavac é eficaz contra variante delta</li>
-    <li> Brasil atinge 50 milhões de vacinados</li>
-    <li> Veneno de cobra Brasileira é efetivo contra o Covid-19</li>
-    <li> Café da manhã japonês é efetivo contra o Corona </li>
-    <li> Vacina da gripe diminui a gravidade da Covid-19</li>
-   <li> Vacina da Covid está ajudando nas pesquisas contra o HIV </li>
-</ol>
-</div>    
+    <div id="subtitulo">
+        <h2> As 6 melhores notícias durante a pandemia </h2>         
+    </div>
 
+    <div id="navbar">
+        <div class="navbar_item"><a href="index.html">  Home  </a></div>
+        <div class="navbar_item"><a href="sobre.html">  Sobre  </a></div>
+        <div class="navbar_item"><a href="contato.html">  Contato  </a></div>
+        <div class="navbar_item"><a href="saibamais.html">  Saiba mais  </a></div>
+    </div>
 
+    <div id="lista"> 
+        <p>Apesar do momento difícil que estamos passando, resolvemos trazer algumas notícias positivas!</p>
+        <ol>
+            <li> Café da manhã japonês é efetivo contra o Corona</li>
+            <li> Brasil atinge 50 milhões de vacinados</li>
+            <li> Veneno de cobra Brasileira é efetivo contra o Covid-19</li>
+            <li> Coronavac é eficaz contra variante delta </li>
+            <li> Vacina da gripe diminui a gravidade da Covid-19</li>
+            <li> Vacina da Covid está ajudando nas pesquisas contra o HIV </li>
+        </ol>
+    </div>
+    
+    <div id="noticias0">
+          
+        <div id="noticia1" class="caixa" width=50%>
+            <h2> Comida japonesa pode combater o Covid</h2>
+            <p> Um alimento japonês diminui a capacidade infecciosa do Sars-Cov-2. O Natô é um prato típico do café da manhã da maioria dos japoneses, pode ser um aliado no combate ao Covid-19. O prato é extraido a partir da soja fermentada.
+                Mesmo  <a href="https://www.bbc.com/portuguese/geral-53970021">não parecendo muito saboroso</a>, é consumido por seus nutrientes. 
+                Uma pesquisa revelou que a bactéria presente na soja fermentada é capaz de diminuir capacidade infecciosa do coronavírus. 
+                Os cientistas infectaram células de boi e de humano cultivadas em laboratório com o vírus, após isso aplicaram as bactérias que reagiram combatendo o vírus. 
+                Ainda são necessários mais estudos aprofundados, porém já é um grande avanço.</p>
+                <img src="imagens/nato.jpg" width=100%>
+        </div>
+        
+        <div id="noticia2" class="caixa" width=50%>
+            <h2> Brasil atinge marca de mais de 50 milhões de pessoas vacinadas</h2>
+            <p> No dia 17/08, o Ministério da saúde informou que 31,9% da população acima de 18 anos estava com a vacinação completa. Confira a notícia completa clicando <a href="https://youtu.be/eU2EFYcTLrA">aqui</a>.</p>
+            <video width=100% controls>
+                <source src="videos/video.mp4" type="video/mp4" width=100%>
+                Your browser does not support HTML video.
+            </video>
+        </div>
+    </div>
+      
+    <div id="noticias1">
 
-<h2>Vacina brasileira consegue ser efetiva até 100% contra variante delta</h2>
-<p>Uma pesquisa publicada na <a href="https://www.thelancet.com/journals/laninf/article/PIIS1473-3099(21)00451-5/fulltext">revista Lancet</a> ,demonstrou que a coronaVac atinge até 100% de proteção contra variante delta. A vacina produzida pelo instituto Butantan em parceria com o laboratório chinês Sinovac, quando aplicada as duas doses tem um nível alto de proteção contra uma das cepas mais agressivas. A informação foi confirmada por Dimas Covas, diretor do Butantan.</p>
-</div>
+        <div id="noticia3" class="caixa">
+            <h2> Veneno de cobra brasileira inibe a Covid-19</h2>
+            <p>Pesquisadores da UNESP publicaram um <a href="https://www.mdpi.com/1420-3049/26/16/4896">artigo</a> com o resultado de um estudo feito em laboratório. Os cientista injetaram um componente presente no veneno da jararacuçu em células de macaco, e uma hora depois adicionaram o vírus. Os cientistas observaram que a molécula impediu o vírus de se reproduzir. A molécula utilizada para a pesquisa não é tóxica para o ser humano, ela apenas interage com a enzima do vírus bloqueando sua reprodução.</p>
+            <img src="imagens/cobra.jpg" width=100%>
+        </div>
 
-<div>
-<h2> Brasil atinge marca de mais de 50 milhões de pessoas com vacinação completa</h2>, 
-<p>No dia 17/08, Ministério da saúde informou que 31,9% da população acima de 18 anos estam com a vacinação completa. 
-    <iframe width="560" height="315" src="https://www.youtube.com/embed/eU2EFYcTLrA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>  </p>
-</div>
+        <div id="noticia4" class="caixa">
+            <h2>Vacina brasileira consegue ser efetiva em até 100% contra variante delta</h2>
+            <p>Uma <a href="https://www.thelancet.com/journals/laninf/article/PIIS1473-3099(21)00451-5/fulltext">pesquisa</a> publicada na  revista Lancet demonstrou que a coronaVac atinge até 100% de proteção contra variante delta. A vacina produzida pelo instituto Butantan em parceria com o laboratório chinês Sinovac, quando aplicada as duas doses, tem um nível alto de proteção contra uma das cepas mais agressivas. A informação foi confirmada por Dimas Covas, diretor do Butantan.</p>
+            <img src="imagens/noticia4.jpeg" width=100%>
+        </div>
 
-<div>
-<h2> Veneno de cobra brasileira inibe a Covid-19</h2>
-<p>Pesquisadores da UNESP publicaram um <a href="https://www.mdpi.com/1420-3049/26/16/4896">artigo</a> com o resultado de um estudo feito em laboratório. Os cientista injetaram um componente presente no veneno da jararacuçu
-     <img src="https://images.app.goo.gl/JeaqdsdXE6WHKmHL6" alt="uma jararacuçu"> em células de macaco, e uma hora depois adicionaram o vírus. Os cientistas observaram que a molécula impediu o vírus de se reproduzir. A molécula utilizada para a pesquisa não é tóxica para o ser humano, ela apenas interage com a enzima do vírus bloqueando sua reprodução.</p>
-</div>
+    </div>
 
+    <div id="noticias2">
+       
+        <div id="noticia5" class="caixa">
+            <h2> Vacina da gripe diminui a gravidade da Covid-19</h2>
+            <p> Os pesquisadores compararam os dados de 37.377 pessoas que receberam vacina contra a gripe, com os de outros 37.377 infectados com SARS-CoV-2 que não foram vacinados contra a gripe.
+                Aqueles que receberam a vacina contra a gripe tiveram redução significativa de sintomas como acidente vascular cerebral, trombose venosa profunda e infecções generalizadas, além de menor probabilidade de internação em UTI.
+                Os resultados do estudo foram apresentados em uma reunião online da Sociedade Europeia de Microbiologia Clínica e Doenças Infecciosas.
+                Segundo a pesquisa, pacientes com covid-19 que não foram vacinados contra a gripe apresentaram risco até 58% maior de terem um derrame e até 45% maior de sofrer infecções graves.
+                Eles também eram mais propensos a serem internados em uma UTI. Deixando claro que a vacina da gripe não substitui a da Covid! Portanto, todos devem tomar a vacina contra o coronavírus!</p>
+            <img src="imagens/noticia5.jpeg" width=100%>
+        </div>
 
-<div>
-<h2> Comida japonesa pode combater o Covid</h2>
-<p> Um alimento japonês diminui a capacidade infecciosa do Sars-Cov-2. O Natô é um prato típico do café da manhã da maioria dos japoneses, pode ser um aliado no combate ao Covid-19. O prato é extraido a partir da soja fermentada. Mesmo não <a href="https://www.bbc.com/portuguese/geral-53970021">parecendo muito saboroso</a>, é consumido por seus nutrientes. Uma pesquisa revelou que a bactéria presente na soja fermentada é capaz de diminuir capacidade infecciosa do coronavírus. Os cientistas infectaram células de boi e de humano cultivadas em laboratório com o vírus, após isso aplicaram as bactérias que reagiram combatendo o vírus. Ainda são necessários mais estudos aprofundados, porém já é um grande avanço.</p></div>
+        <div id="noticia6" class="caixa">
+            <h2>Os estudos para vacina contra a Covid também está ajudando os pesquisadores na busca da vacina contra HIV</h2>
+            <p> Os pesquisadores estão utilizando uma tecnologia parecida com a da Covid para a vacina contra o HIV.
+                A pesquisa já está na fase três, quano já são feitos testes em humanos.
+                Com uma tecnologia semelhante a da vacina Janssen. 
+                Usando um vírus de resfriado enfraquecido junto com a estrutura genética do HIV, o que não causa a doença nos pacientes, apenas estimula o organismo a se defender.
+                O resultado dessa pesquisa só sairá em dois anos e meio.</p>
+            <img src="imagens/noticia6.jpeg" width=100%>
+        </div>
+    </div>
 
-<div>
-<h2> vacina da gripe diminui a gravidade da Covid-19</h2>
-<p> Os pesquisadores compararam os dados de 37.377 pessoas que receberam vacina contra a gripe, com os de outros 37.377 infectados com SARS-CoV-2 que não foram vacinados contra a gripe.
-    Aqueles que receberam a vacina contra a gripe tiveram redução significativa de sintomas como acidente vascular cerebral, trombose venosa profunda e infecções generalizadas, além de menor probabilidade de internação em UTI.
-    Os resultados do estudo foram apresentados em uma reunião online da Sociedade Europeia de Microbiologia Clínica e Doenças Infecciosas.
-    Segundo a pesquisa, pacientes com covid-19 que não foram vacinados contra a gripe apresentaram risco até 58% maior de terem um derrame e até 45% maior de sofrer infecções graves.
-    Eles também eram mais propensos a serem internados em uma UTI. Deixando claro que a vicina da gripe não substitui a da Covid! Portanto, todos devem tomar a vacina contra o coronavírus!</p>
-</div>
+    <div id="rodape">
+        <p>GRUPO 04 - ©2021 - Todos os direitos reservados!</p>
+    </div>
 
-
-
-    <div> 
-    <h2>Os estudos para vacina contra a Covid também está ajudando os pesquisadores na busca da vacina contra HIV</h2>
-<p> Os pesquisadores estão utilizando uma tecnologia parecida com a da Covid para a vacina contra o HIV. A pesquisa já está na fase três, quano já são feitos testes em humanos. Com uma tecnologia semelhante a da vacina Janssen. Usando um vírus de resfriado enfraquecido junto com a estrutura genética do HIV, o que não causa a doença nos pacientes, apenas estimula o organismo a se defender. Os resultados dessa pesquisa só sairá em dois anos e meio.</p>
 </body>
 
 </html>
